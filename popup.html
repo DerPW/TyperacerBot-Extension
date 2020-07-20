@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="popup.css" />
+		<link rel="stylesheet" href="./mdl/material.min.css" />
+	</head>
+	<body>
+		<div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input
+					class="mdl-textfield__input"
+					type="text"
+					pattern="-?[0-9]*(\.[0-9]+)?"
+					id="delayInput"
+				/>
+				<label class="mdl-textfield__label" for="delayInput">Delay in ms</label>
+				<span class="mdl-textfield__error">Keine gültige Eingabe!</span>
+			</div>
+			<button
+				class="mdl-js-ripple-effect mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+				id="start"
+			>
+				Start
+			</button>
+		</div>
+		<script defer src="./mdl/material.min.js"></script>
+		<script type="text/javascript" src="popup.js"></script>
+	</body>
+</html>

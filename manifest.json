@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+	"name": "Typeracer Bot",
+	"version": "1.0.0",
+	"description": "The Typeracer Bot automatically writes for you. You can also set the delay between each key press.",
+	"author": "ThePW",
+
+	"icons": {
+		"128": "favicon.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+
+	"web_accessible_resources": ["style.css", "popup.js"],
+
+	"browser_action": {
+		"default_icon": "favicon.png",
+		"default_popup": "popup.html",
+		"default_title": ""
+	},
+
+	"permissions": ["tabs", "https://play.typeracer.com/"]
+}
