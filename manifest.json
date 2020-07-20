@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Typeracer Bot",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "The Typeracer Bot automatically writes for you. You can also set the delay between each key press.",
 	"author": "ThePW",
 
