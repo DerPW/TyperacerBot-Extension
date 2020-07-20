@@ -1,7 +1,6 @@
 # TyperacerBot-Extension
 
-Eine Chrome Extension, die für dich in Typeracer Rennen schreibt.
-Du kannst die verzögerung zwischen den Tastendrücken einstellen (in ms).
+The Typeracer Bot is a chrome(ium) extension that automatically writes for you. You can also set a delay between each key press.
 
 ## How to install
 1. Download lastest release [here](https://github.com/DerPW/TyperacerBot-Extension/releases/latest)
