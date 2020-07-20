@@ -1,7 +1,7 @@
 const delay = document.getElementById('delayInput');
 const start = document.getElementById('start');
 document.getElementById('start').addEventListener('click', () => {
-	if (document.location.href != 'https://play.typeracer.com') {
+	if (document.location.href.includes('play.typeracer.com')) {
 		return;
 	}
 	chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
