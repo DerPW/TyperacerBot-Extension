@@ -9,3 +9,9 @@ The Typeracer Bot is a chrome(ium) extension that automatically writes for you. 
 4. Enable developer mode
 5. Click on `Load unpacked` and choose the unzipped folder
 6. The TyperacerBot extensions should now be enabled and ready to use
+
+## Found bugs? Of course...
+If you found a bug or something, you can create a [New Issue](https://github.com/DerPW/TyperacerBot-Extension/issues/new?assignees=&labels=&template=bug_report.md&title=) 
+
+## Feature request
+If you have a "great" idea how to improve the bot, you can create a [Feature Request](https://github.com/DerPW/TyperacerBot-Extension/issues/new?assignees=&labels=&template=feature_request.md&title=)
